@@ -68,7 +68,7 @@
     width:max-content;
     margin-bottom: 16px;
     font-size: 30px;
-    border-bottom: 3px solid rgba(128, 128, 128, 0.505);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.505);
     font-family: "Tinos", serif;
 }
 
@@ -126,7 +126,7 @@
     width:max-content;
     margin-bottom:16px;
     font-size: 30px;
-    border-bottom: 3px solid rgba(128, 128, 128, 0.51);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.51);
     font-family: "Tinos", serif;
 }
 
@@ -226,7 +226,7 @@
     width:max-content;
     margin-bottom:16px;
     font-size: 30px;
-    border-bottom: 3px solid rgba(128, 128, 128, 0.505);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.505);
     font-family: "Tinos", serif;
 }
 
@@ -350,7 +350,7 @@ i{
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 #b1,#a1,#c1{
     font-family: "Poiret One", sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     color:#8d1687;
 }
 
