@@ -27,34 +27,6 @@
     border:1px solid #000000;
 }
 
-.d1{
-    position:absolute;
-    top:0;
-    left:0;
-    width: 100px;
-    height: 100px;
-    background-color: #1f2241;
-    border-radius: 0% 100% 100% 0% / 100% 0% 100% 0% ;
-    -webkit-border-radius: 0% 100% 100% 0% / 100% 0% 100% 0% ;
-    -moz-border-radius: 0% 100% 100% 0% / 100% 0% 100% 0% ;
-    -ms-border-radius: 0% 100% 100% 0% / 100% 0% 100% 0% ;
-    -o-border-radius: 0% 100% 100% 0% / 100% 0% 100% 0% ;
-}
-
-.d2{
-    position:absolute;
-    bottom:70%;
-    right: 0%;
-    width: 100px;
-    height: 100px;
-    background-color:#241023;
-    border-radius: 100% 0% 0% 100% / 100% 100% 0% 0% ;
-    -webkit-border-radius: 100% 0% 0% 100% / 100% 100% 0% 0% ;
-    -moz-border-radius: 100% 0% 0% 100% / 100% 100% 0% 0% ;
-    -ms-border-radius: 100% 0% 0% 100% / 100% 100% 0% 0% ;
-    -o-border-radius: 100% 0% 0% 100% / 100% 100% 0% 0% ;
-}
-
 .name{
     font-family: "GFS Didot", serif;
     font-size:30px;
@@ -335,18 +307,37 @@ button:hover{
 }
 
 /* FOOTER */
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Julius+Sans+One&display=swap');
 .foot{
     width: 100%;
-    height: 150px;
+    height: 100px;
     background: linear-gradient(to right,#241023, #181D31 80%);
-    color: rgba(255, 255, 255, 0.748);
-    font-family: "Special Elite", system-ui;
+    color:whitesmoke;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    line-height: 1.8;
-    letter-spacing: 1px;
+    letter-spacing: 2.2px;
+}
+
+#f12{
+    font-family: "GFS Didot", serif;
+    font-size: 12px;
+}
+
+.icon a {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+i{
+    margin-top: 20px;
+}
+
+.social-icons a:hover {
+    color: #00ffcc;
 }
 
 #b1,#a1,#c1{
@@ -369,11 +360,6 @@ button:hover{
 
     .title {
         font-size: 14px;
-    }
-
-    .d2,.d1{
-        width:0px;
-        height:0px;
     }
 
     .main {
