@@ -28,7 +28,7 @@ html {
 .headertitle {
     font-size: 1.3em;
     font-family: sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 4px;
     position: relative;
     left: 30px;
@@ -113,6 +113,7 @@ a {
     align-content: center;
     font-weight: 400;
     overflow: hidden;
+    text-align: justify;
 }
 
 /* a2 start */
