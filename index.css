@@ -95,6 +95,10 @@ h2.section-title {
     line-height: 1.9em;
 }
 
+.text p{
+    letter-spacing: 2px;
+}
+
 #years{
     color: #0091ff;
 }
@@ -103,12 +107,12 @@ h2.section-title {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .skill-card {
     width: 100px;
-    padding: 15px;
+    padding: 15px 2px;
     border-radius: 6px;
     background: white;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -160,6 +164,7 @@ h2.section-title {
     margin-bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
+    line-height: 19px;
 }
 
 .project .tech {
