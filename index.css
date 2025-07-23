@@ -135,7 +135,11 @@ h2.section-title {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    border: 2px solid transparent;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    &:hover{
+        border: 2px solid dodgerblue;
+    }
 }
 
 .project .project-image {
