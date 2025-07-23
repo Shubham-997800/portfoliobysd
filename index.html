@@ -1,154 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shubham Dangi</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Font & Icons -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- TITLE TAB IMAGE -->
-    <link rel="icon" href="s.png" type="image/png">
+        <!-- css link -->
+        <link rel="stylesheet" href="index.css">
+    </head>
 
-    <!-- ICONE LINK -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <body>
 
-    <title>SHUBHAM DANGI</title>
-    <link rel="stylesheet" href="index.css">
-</head>
+        <!-- HEADER -->
+        <header>
+            <h1 class="title">SHUBHAM DANGI</h1>
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#education">EDUCATION</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#projects">PROJECTS</a>
+            </nav>
+        </header>
 
-<body>
-    <!-- header part -->
-    <header class="header">
-        <h1 class="headertitle">SHUBHAM DANGI</h1>
-        <nav class="navbar">
-            <div class="navbar__item"><a href="#">HOME</a></div>
-            <div class="navbar__item"><a href="#about">ABOUT</a></div>
-            <div class="navbar__item"><a href="#skills">SKILLS</a></div>
-            <div class="navbar__item"><a href="#projects">PROJECTS</a></div>
-        </nav>
-    </header>
+        <!-- MAIN CONTENT -->
+        <main>
+            <!-- ABOUT -->
+            <section id="about">
+                <h2 class="section-title">ABOUT</h2>
+                <div class="flex-row">
+                    <img src="working.png" class="image" alt="About Me">
+                    <p class="text">
+                        Hi, I’m Shubham Dangi, a passionate BCA student pursuing
+                        my Bachelor’s degree in Computer Applications. I will
+                        complete my graduation in 2028. I'm deeply interested in
+                        software development, web technologies, and coding. I
+                        love experimenting with new tech, building projects, and
+                        growing my problem-solving skills every day.
+                    </p>
+                </div>
+            </section>
 
-    <!-- main part -->
-    <main class="main">
-
-        <h1 class="a1_header" id="about">ABOUT</h1>
-        <section class="a1">
-            <img src="working.png" alt="person" class="a1_img">
-            <div class="m1">Hi, I’m Shubham Dangi, a passionate BCA student pursuing my Bachelor’s degree in Computer Applications.I will complete my graduation in 2028.deeply interested in software development, web technologies, and coding.I believe in continuous learning and strive to become a skilled developer who can build impactful and efficient digital solutions.love to experiment with new tech, build small projects, and improve my problem-solving skills every day.</div>
-        </section>
-
-        <h1 class="a2_header" id="education">EDUCATION</h1>
-        <section class="a2">
-            <img src="education.png" alt="eductaion" class="a2_img">
-            <div class="m2">
-                <p id="a1"><b>Bachelor of Computer Applications </b>(Hons.)</p>
-                <p id="a2">LJ College of Computer Applications</p>
-                <p id="a3">2024 - 2028</p>
-                <p id="a4">Gujarat University Ahmedabad</p>
-            </div>   
-        </section>
-
-        <h1 class="a3_header" id="skills">SKILLS</h1>
-        <section class="a3">
-            <img src="requirements.png" alt="skills" class="a3_img">
-            <div class="skills_containor">
-                <div class="html"><i class="fa-brands fa-html5" id="s1"></i>HTML</div>
-                <div class="css"><i class="fa-brands fa-css3-alt" id="s2"></i>CSS</div>
-                <div class="javascript"><i class="fa-brands fa-js" id="s3"></i>JAVASCRIPT</div>
-            </div>
-        </section>
-
-        <h1 class="a4_header" id="projects">PROJECTS</h1>
-        <section class="a4">
-            <!-- FIRST -->
-            <div class="b1_projects">
-                <img src="google.png" alt="googlecopy" id="b1_img">
-                <div class="b1_content">
-                    <h1 class="b1_heading">GOOGLE UI CLONE</h1>
-                    <p class="discription_b1">A simple clone of the Google search homepage. It not allows users to enter queries and redirects them to Google’s actual search results.</p>
-                    <h1 class="title_b1">HTML&nbsp;&nbsp;CSS</h1>
-                    <div class="button_b1">
-                        <a href="https://gclonebysd.vercel.app/" target="_blank"><button class="b11">LIVE DEMO</button></a>
-                        <a href="https://github.com/Shubham-997800/gclonebysd" target="_blank"><button class="b12">GET CODE</button></a>
+            <!-- EDUCATION -->
+            <section id="education">
+                <h2 class="section-title">EDUCATION</h2>
+                <div class="flex-row">
+                    <img src="education.png" class="image" alt="Education">
+                    <div class="text">
+                        <p><b>Bachelor of Computer Applications (Hons.)</b></p>
+                        <p>LJ College of Computer Applications</p>
+                        <p id="years">2024 - 2028</p>
+                        <p>Gujarat University, Ahmedabad</p>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <!-- SECOND -->
-            <div class="b2_projects">
-                <img src="youtube.png" alt="youtubecopy" id="b2_img">
-                <div class="b2_content">
-                    <h1 class="b2_heading">YOUTUBE UI CLONE</h1>
-                    <p class="discription_b2">A simple clone of the Youtube homepage. It not allows users to enter queries and redirects them to Youtube’s actual search results.</p>
-                    <h1 class="title_b2">HTML&nbsp;&nbsp;CSS</h1>
-                    <div class="button_b2">
-                        <a href="https://yclonebysd.vercel.app/" target="_blank"><button class="b21">LIVE DEMO</button></a>
-                        <a href="https://github.com/Shubham-997800/yclonebysd" target="_blank"><button class="b22">GET CODE</button></a>
+            <!-- SKILLS -->
+            <section id="skills">
+                <h2 class="section-title">SKILLS</h2>
+                <div class="skills">
+                    <div class="skill-card"><i class="fa-brands fa-html5"
+                            style="color: orangered;"></i>HTML</div>
+                    <div class="skill-card"><i class="fa-brands fa-css3-alt"
+                            style="color: dodgerblue;"></i>CSS</div>
+                    <div class="skill-card"><i class="fa-brands fa-js"
+                            style="color: gold;"></i>JavaScript</div>
+                </div>
+            </section>
+
+            <!-- PROJECTS -->
+            <section id="projects">
+                <h2 class="section-title">PROJECTS</h2>
+
+                <div class="project">
+                    <img src="google.png" alt="Google Clone"
+                        class="project-image">
+                    <h3>GOOGLE UI CLONE</h3>
+                    <p>A simple clone of the Google homepage that redirects to
+                        real Google search results.</p>
+                    <div class="tech">HTML • CSS</div>
+                    <div class="buttons">
+                        <a href="https://gclonebysd.vercel.app/"
+                            target="_blank"><button>LIVE DEMO</button></a>
+                        <a href="https://github.com/Shubham-997800/gclonebysd"
+                            target="_blank"><button>GET CODE</button></a>
                     </div>
                 </div>
-            </div>
 
-            <!-- THIRD -->
-            <div class="b3_projects">
-                <img src="slider.png" alt="imgslider" id="b3_img">
-                <div class="b3_content">
-                    <h1 class="b3_heading">PARALEX EFFECT</h1>
-                    <p class="discription_b3">A dynamic image slider with smooth transitions. It’s perfect for photos.</p>
-                    <h1 class="title_b3">HTML&nbsp;&nbsp;CSS</h1>
-                    <div class="button_b3">
-                        <a href="https://imgsliderbysd.vercel.app/" target="_blank"><button class="b31">LIVE DEMO</button></a>
-                        <a href="https://github.com/Shubham-997800/imgsliderbysd" target="_blank"><button class="b32">GET CODE</button></a>
+                <div class="project">
+                    <img src="youtube.png" alt="YouTube Clone"
+                        class="project-image">
+                    <h3>YOUTUBE UI CLONE</h3>
+                    <p>A basic layout of YouTube homepage clone.</p>
+                    <div class="tech">HTML • CSS</div>
+                    <div class="buttons">
+                        <a href="https://yclonebysd.vercel.app/"
+                            target="_blank"><button>LIVE DEMO</button></a>
+                        <a href="https://github.com/Shubham-997800/yclonebysd"
+                            target="_blank"><button>GET CODE</button></a>
                     </div>
                 </div>
-            </div>
 
-            <!-- FOURTH -->
-            <div class="b4_projects">
-                <img src="calculator.png" alt="calculator" id="b4_img">
-                <div class="b4_content">
-                    <h1 class="b4_heading">CALCULATOR</h1>
-                    <p class="discription_b4">A fully functional calculator that can perform basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
-                    <h1 class="title_b4">HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT</h1>
-                    <div class="button_b4">
-                        <a href="https://calcbysd.vercel.app/" target="_blank"><button class="b41" >LIVE DEMO</button></a>
-                        <a href="https://github.com/Shubham-997800/calcbysd" target="_blank"><button class="b42">GET CODE</button></a>
+                <div class="project">
+                    <img src="slider.png" alt="imgslider" class="project-image">
+                    <h3>PARALEX EFFECT</h3>
+                    <p>A dynamic image slider with.</p>
+                    <div class="tech">HTML • CSS</div>
+                    <div class="buttons">
+                        <a href="https://imgsliderbysd.vercel.app/"
+                            target="_blank"><button>LIVE DEMO</button></a>
+                        <a
+                            href="https://github.com/Shubham-997800/imgsliderbysd"
+                            target="_blank"><button>GET CODE</button></a>
                     </div>
                 </div>
-            </div>
 
-            <!-- FIFTH -->
-            <div class="b5_projects">
-                <img src="digital-clock.png" alt="digitalclock" id="b5_img">
-                <div class="b1_content">
-                    <h1 class="b5_heading">DIGITAL CLOCK</h1>
-                    <p class="discription_b5">Displays the current time in hours, minutes, and seconds with real-time updates. Styled using CSS to resemble a digital clock.</p>
-                    <h1 class="title_b5">HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JAVASCRIPT</h1>
-                    <div class="button_b5">
-                        <a href="https://clockbysd.vercel.app/" target="_blank"><button class="b51">LIVE DEMO</button></a>
-                        <a href="https://github.com/Shubham-997800/clockbysd" target="_blank"><button class="b52">GET CODE</button></a>
+                <div class="project">
+                    <img src="calculator.png" alt="calculator"
+                        class="project-image">
+                    <h3>CALCULATOR</h3>
+                    <p>A fully functional calculator that can perform basic
+                        arithmetic operations like addition, subtraction,
+                        multiplication, and division.</p>
+                    <div class="tech">HTML • CSS</div>
+                    <div class="buttons">
+                        <a href="https://calcbysd.vercel.app/"
+                            target="_blank"><button>LIVE DEMO</button></a>
+                        <a href="https://github.com/Shubham-997800/calcbysd"
+                            target="_blank"><button>GET CODE</button></a>
                     </div>
                 </div>
+
+                <div class="project">
+                    <img src="digital-clock.png" alt="digitalclock"
+                        class="project-image">
+                    <h3>DIGITAL CLOCK</h3>
+                    <p>Displays the current time in hours, minutes, and seconds
+                        with real-time updates. Styled using CSS to resemble a
+                        digital clock.</p>
+                    <div class="tech">HTML • CSS</div>
+                    <div class="buttons">
+                        <a href="https://clockbysd.vercel.app/"
+                            target="_blank"><button>LIVE DEMO</button></a>
+                        <a href="https://github.com/Shubham-997800/clockbysd"
+                            target="_blank"><button>GET CODE</button></a>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>MADE BY SHUBHAM DANGI</p>
+            <div class="footer-icons">
+                <a href="https://www.instagram.com/_shubham_9978"
+                    target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/add/shubham997800"
+                    target="_blank"><i class="fab fa-snapchat-ghost"></i></a>
+                <a href="https://github.com/Shubham-997800" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://wa.me/+919978008953" target="_blank"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="mailto:shubham997800@gmail.com"><i
+                        class="fas fa-envelope"></i></a>
             </div>
+        </footer>
 
-        </section>
-
-    </main>
-
-    <!-- footer part -->
-    <footer class="footer">
-        <span class="footer_tag">MADE BY SHUBHAM DANGI</span>
-        <div class="icon">
-                <a href="https://www.instagram.com/_shubham_9978?igsh=cjFhZTd0aXh6Zjlh" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                
-                <a href="https://www.snapchat.com/add/shubham997800?share_id=QibBJxmCuEo&locale=en-GB" target="_blank"><i class="fab fa-snapchat-ghost"></i></a>
-                
-                <a href="https://github.com/Shubham-997800" target="_blank"><i class="fab fa-github" id="f1"></i></a>
-                
-                <a href="https://wa.me/+919978008953" target="_blank"><i class="fab fa-whatsapp" id="f2"></i></a>
-                
-                <a href="mailto:shubham997800@gmail.com"><i class="fas fa-envelope" id="f3"></i></a>
-            </div>
-    </footer>
-
-</body>
-
+    </body>
 </html>
