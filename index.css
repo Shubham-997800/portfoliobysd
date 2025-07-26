@@ -1,11 +1,18 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Space Grotesk', sans-serif;
     overflow-x: hidden;
 }
 
@@ -24,7 +31,6 @@ header {
 }
 
 header a{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
 }
 
@@ -38,20 +44,30 @@ header a{
 nav {
     display: flex;
     gap: 20px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
 }
 
 nav a {
     text-decoration: none;
     color: black;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     border-bottom: 2px solid transparent;
     transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
 nav a:hover {
     border-bottom: 2px solid dodgerblue;
+    cursor: pointer;
 }
 
 main {
@@ -71,7 +87,6 @@ h2.section-title {
     text-align: center;
     font-weight: 600;
     letter-spacing: 3px;
-    font-family: sans-serif;
 }
 
 .flex-row {
@@ -155,14 +170,12 @@ h2.section-title {
     font-size: 18px;
     margin: 10px 0;
     color: #333;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 1px;
 }
 
 .project p {
     font-size: 14px;
     margin-bottom: 10px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     line-height: 19px;
 }
@@ -205,7 +218,6 @@ footer {
     padding: 20px;
     border-top: 1px solid dodgerblue;
     letter-spacing: 4px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .footer-icons {
