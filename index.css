@@ -251,7 +251,19 @@ footer {
         text-align: left;
     }
 
-    .image,
+    .image1{
+        width: 40%;
+    }
+
+    #education div div {
+        text-align:justify;
+    }
+
+    .image{
+        width: 90%;
+    }
+
+
     .text {
         width: 100%;
     }
