@@ -97,8 +97,13 @@ h2.section-title {
     gap: 30px;
 }
 
-.image,.image1 {
-    width: 35%;
+.image1 {
+    width: 20%;
+    max-width: 300px;
+}
+
+.image {
+    width: 25%;
     max-width: 300px;
 }
 
